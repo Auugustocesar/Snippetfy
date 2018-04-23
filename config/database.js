@@ -1,7 +1,8 @@
 module.exports = {
   username: 'root',
-  passworld: 'root',
+  password: 'root',
   database: 'snippetify',
   host: '127.0.0.1',
   dialect: 'mysql',
-};
+  operatorsAliases: false,
+}

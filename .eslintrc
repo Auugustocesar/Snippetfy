@@ -1,6 +1,7 @@
 {
   "extends": "airbnb-base",
   "rules": {
-    "semi": "off"
+    "semi": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
   }
 }

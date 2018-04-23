@@ -130,7 +130,7 @@ input:focus, textarea:focus {
   border-left: 1px solid #DDD;
   border-right: 1px solid #DDD;
   margin: 0 10px;
-  overflow-y: scroll;
+  overflow: overlay;
 }
 
 .wrapper .snippet-content {
@@ -404,4 +404,8 @@ input:focus, textarea:focus {
 
 #new-snippet form {
   /* min-height: 650px; */
+}
+
+.button-destroy {
+  background-color: transparent;
 }
